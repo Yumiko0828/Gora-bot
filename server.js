@@ -1,4 +1,6 @@
 const express = require('express');
+const Discord = require('discord.js');
+const client = new Discord.Client();
 const hbs = require('express-handlebars');
 const app = express();
 const path = require("path");
@@ -35,6 +37,7 @@ app.get("/", (req, res) => {
 // Server listening
 module.exports = () => {
     app.listen(app.get('port'), () => {
+        console.clear()
         console.log('Server on port:', app.get('port'))
     })
 }

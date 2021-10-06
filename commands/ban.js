@@ -30,7 +30,7 @@ execute (client, message, args){
    .addField(`Usuario`, `» ${user}`)
    .addField(`Razón`, `» ${banReason}`)
    .addField(`Moderador`, `» ${message.author}`)
-   .setColor("0xFF4200")
+   .setColor("0xE24C3F")
    .setTimestamp()
    .setFooter(`ID: ${user.id}`)
 

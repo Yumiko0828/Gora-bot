@@ -39,7 +39,7 @@ async execute (client, message, args){
 
   .setTitle("<a:verified:871913650653364235>Todo ha salido bien!")
   .setDescription("📤La sugerencia ha sido enviada a el canal establecido")
-  .setColor("0xFF4200")
+  .setColor("0xE24C3F")
 
   message.channel.send(embedbuena)
 

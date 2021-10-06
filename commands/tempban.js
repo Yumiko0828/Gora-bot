@@ -24,7 +24,7 @@ async execute (client, message, args){
     .addField(`Usuario`, `» ${member.username}`)
     .addField(`Moderador`, `» ${message.author}`)
     .addField(`time`, `» ${time}`)
-    .setColor("0xFF4200")
+    .setColor("0xE24C3F")
 
   member.send(embedb)
   message.channel.send(embedb)

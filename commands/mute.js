@@ -41,7 +41,7 @@ const embed7 = new Discord.MessageEmbed()
   .addField(`Usuario`, `» ${mencionado}`)
   .addField(`Tiempo`, `» ${time}`)
   .addField(`Razón`, `» ${razon}`)
-  .setColor("0xFF4200")
+  .setColor("0xE24C3F")
 message.channel.send(embed7)
 
   await setTimeout(async function(){

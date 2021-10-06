@@ -25,25 +25,18 @@ function presence(){
     client.user.setPresence({
         status:"idle",
         activity: {
-            name: "g/help | v4.0.3",
+            name: "g/help | v4.0.5",
             type: "PLAYING"
         }
     })
 }
 client.on("ready", () => {
-   console.log(`Bot: ${client.user.tag}`); 
-   presence();
+    console.log(`Bot: ${client.user.tag}`); 
+    presence();
 });
 
 const keepAlive = require('./server');
-const Monitor = require('ping-monitor');
- 
 keepAlive();
-const monitor = new Monitor({
-    website: 'https://gora.cleverapps.io',
-    title: 'principal',
-    interval: 1 // minutes
-});
 
 
 //-----------------------------EVENTO MESSAGE-----------------------------//

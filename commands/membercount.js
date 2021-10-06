@@ -16,7 +16,7 @@ const embed = new Discord.MessageEmbed()
 .setTitle("Members")
 .setThumbnail(message.guild.iconURL())
 .setAuthor(message.guild.name, message.guild.iconURL())
-.setColor("0xFF4200")
+.setColor("0xE24C3F")
 .addField("**Total users**:", message.guild.memberCount, true)
 
 

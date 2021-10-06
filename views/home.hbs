@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/89446b7732.js">
     <link rel="stylesheet" href="/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -27,7 +28,7 @@
                     <ul class="nav navbar-nav">
                         <li class="nav-item"><a class="nav-link active smoothScroll" href="#feature" style="color: var(--text-color);">Caracteristicas</a></li>
                         <li class="nav-item"><a class="nav-link smoothScroll" href="#commands" style="color: var(--text-color);">Comandos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=871905999320150036&scope=bot&permissions=8" style="color: var(--text-color);">Invite</a></li>
+                        <li class="nav-item"><a class="nav-link" target="_blank" href="https://discord.com/oauth2/authorize?client_id=871905999320150036&scope=bot&permissions=8" style="color: var(--text-color);">Invite</a></li>
                     </ul>
             </div>
     </div>
@@ -51,17 +52,17 @@
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div id="features" class="box" style="/*border-radius: 34px;*/"><i class="fa fa-bolt icon" style="color: var(--main-color);"></i>
                         <h3 class="name">Rapido</h3>
-                        <p class="description" style="color: var(--secondary-text-color);">Ejecuta acciones sin problemas y/o retraso con Gora.<br></p>
+                        <p class="description" style="color: var(--secondary-text-color);">Ejecuta los comandos sin problemas y/o retraso mientras usas Gora.<br></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div id="features" class="box"><i class="fa fa-lock icon" style="color: var(--main-color);"></i>
                         <h3 class="name">Moderacion</h3>
-                        <p class="description" style="color: var(--secondary-text-color);">Gora incluye comandos de moderacion para tus servidores.<br></p>
+                        <p class="description" style="color: var(--secondary-text-color);">Gora incluye comandos de moderacion para tus servidores de Discord.<br></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div id="features" class="box"><i class="fa fa-smile-o icon" style="color: var(--main-color);"></i>
+                    <div id="features" class="box"><i class="fa fa-puzzle-piece icon" style="color: var(--main-color);"></i>
                         <h3 class="name">Entretenimiento</h3>
                         <p class="description" style="color: var(--secondary-text-color);">Incluye comandos de entretenimiento para un servidor divertido!<br></p>
                     </div>
@@ -88,27 +89,71 @@
         </section><div class="container">
   <h2>Comandos</h2>
   <div class="accordion">
-         
-    <! --- If you want more just copy the following code from here -- >
+      
           <div class="accordion-item">
       <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">General</span><span class="icon" aria-hidden="true"></span></button>
       <div class="accordion-content">
-        <p><code>!help</code> » ver todos los comandos <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands<br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands<br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> fuck <br> hi <br> lol</p>
+        <p>
+          <code>g/help</code> » ver todos los comandos <br>
+          <code>g/say (message)</code> » Repite el mensaje que hayas escrito.<br>
+          <code>g/invite</code> » Apartado de Soporte.<br>
+          <code>g/jumbo [:emoji:]</code> » Envia el emoji aun más grande.<br>
+          <code>g/clear (amount)</code> » Elimina la cantidad de mensajes indicados en el canal donde se ejecuto.<br>
+          <code>g/suggest (sugerencia)</code> » Envia una sugerencia a un canal establecido por servidor (REQUIERE g/cs).<br>
+          <code>g/cs [#channel]</code> » Establece el canal de sugerencias por servidor.<br>
+          <code>g/membercount</code> » Cantidad de miembros en un servidor el Discord.<br>
+          <code>g/regalo [@user] [URL] (message (opcional))</code> » Envia un regalo al usuario mencionado por MD (mensaje directo).<br>
+          <code>g/neko</code> » Imagenes neko.<br>
+          <code>g/nekogif</code> » Gif neko.<br>
+          <code>g/meow</code> » Imagenes de gatitos<br>
+          <code>g/feed</code> » Gif comiendo<br>
+          <code>g/meme</code> » Envia un meme random.<br>
+          <code>g/kiss [@user]</code> » Manda un beso al usuario mencionado.<br>
+        </p>
       </div>
     </div>
-    <! --- to here :D -- >
-    <! --- If you want more just copy the following code from here -- >
           <div class="accordion-item">
       <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Moderacion</span><span class="icon" aria-hidden="true"></span></button>
       <div class="accordion-content">
-        <p><code>g/kick [@user] (reason)</code> - Expulsa al usuario del servidor <br> <code>g/</code> » descripcion</p>
+        <p>
+          <code>g/kick [@user] (reason)</code> » Kickea al jugador especificado del servidor.<br>
+          <code>g/ban [@user] (reason opcional)</code> » Banea al jugador especificado.<br>
+          <code>g/unban [ID]</code> » Banea al jugador especificado.<br>
+          <code>g/mute [@user] (time) (reason)</code> » Mutea a un jugador por un tiempo especificado.<br>
+          <code>g/mrol [@rol]</code> » Establece el rol de mute (REQUIERE g/mute).<br>
+          <code>g/tempban [@user] (time)</code> » Banea temporalmente al usuario mencionado y luego lo desbanea.<br>
+          <code>g/warn [@user] (reason)</code> » Advierte a un jugador.<br>
+          <code>g/unwarn [@user]</code> » Quita la advertencia de un jugador.<br>
+          <code>g/warns [@user]</code> » La cantidad de advertencias que tiene el jugador.<br>
+        </p>
       </div>
     </div>
-    <! --- to here :D -- >
           <div class="accordion-item">
-      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Fun Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Games</span><span class="icon" aria-hidden="true"></span></button>
       <div class="accordion-content">
-        <p>!hug - hugs a user <br> !ban - bans a user
+        <p>
+          <code>g/mcstatus (java/bedrock) [IP]:(Puerto (Opcional))</code> » Muestra el status del servidor de Minecraft especificado.<br>
+          <code>g/8ball (pregunta)</code> » hasme una pregunta y te respondere.<br>
+        </p>
+      </div>
+    </div>
+          <div class="accordion-item">
+      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Nsfw</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>
+          <code>g/hentai</code> » Hentai gif.<br>
+          <code>g/hneko</code> » Neko gif nsfw.<br>
+          <code>g/cum [@user]</code> » Vente en el usuario mencionado.<br>
+          <code>g/spank [@user]</code> » Azota al usuario mencionado.<br>
+        </p>
+      </div>
+    </div>
+          <div class="accordion-item">
+      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Otro</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>
+          <code>g/wallpaper</code> » Genera un wallpaper aleatorio.<br>
+          <code>g/serverinfo</code> » Informacion del servidor donde se ejecute.<br>
         </p>
       </div>
     </div>
@@ -121,8 +166,8 @@
             <div class="intro"></div>
             <div class="row row-cols-4 d-flex d-xl-flex justify-content-center justify-content-xl-center people" style="padding-bottom: 0px;">
                 <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/" target="_blank"><img class="rounded-circle partner" src="https://cdn.discordapp.com/icons/876953733525803018/74d7b330e662ce1490d7db3c44f6ef43.webp"></a></div>
-                <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/q4axZECcsS" target="_blank"><img class="rounded-circle partner" src="https://cdn.discordapp.com/icons/854500775086784522/27ad9b5ebcbcc610339f7cf7af1a6200.webp"></a></div>
                 <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/" target="_blank"><img class="rounded-circle partner" src="https://cdn.discordapp.com/icons/871907014098448415/9560135af2f509e5f91bcac7aea6015d.webp"></a></div>
+                <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/q4axZECcsS" target="_blank"><img class="rounded-circle partner" src="https://cdn.discordapp.com/icons/854500775086784522/27ad9b5ebcbcc610339f7cf7af1a6200.webp"></a></div>
             </div>
         </div>
     </div>

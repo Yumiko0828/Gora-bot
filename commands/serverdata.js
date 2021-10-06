@@ -14,7 +14,7 @@ execute (client, message, args){
 
   .setTitle(`Estoy en: ${client.guilds.cache.size} servidores `)
   .setDescription(`Los nombres son: ${client.guilds.cache.map(a => a.name)}`)
-  .setColor("0xFF4200")
+  .setColor("0xE24C3F")
 
 message.channel.send("<a:verified:871913650653364235>Revisa tus mensajes privados!")
   message.author.send(embed)

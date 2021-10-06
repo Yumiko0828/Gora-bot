@@ -38,7 +38,7 @@ function formatDate (template, date) {
   
   const embedinfo = new Discord.MessageEmbed()
   
-  .setColor("0xFF4200")
+  .setColor("0xE24C3F")
   .setDescription(`📚 | Informacion de **${member}**`)
   .addField('👤 | Nombre:', member.user.tag)
   .addField('🆔️ | Id:', ` ${member.user.id}`)

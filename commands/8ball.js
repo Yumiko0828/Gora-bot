@@ -18,7 +18,7 @@ const bal = new Discord.MessageEmbed()
   .addField(`Pregunta:`, `» **${mensaje}**`)
   .addField(`Respuesta:`, `» **${respuestas[( Math.floor(Math.random() * respuestas.length))]}**`)
   .setFooter(`8Ball`, message.author.displayAvatarURL({ dynamic: true, size: 1024 }))
-  .setColor("0xFF4200")
+  .setColor("0xE24C3F")
   .setTimestamp()
 
 message.channel.send(bal)

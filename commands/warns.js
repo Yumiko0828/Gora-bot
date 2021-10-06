@@ -23,7 +23,7 @@ let cantidad = await warns.obtener(`${message.guild.id}.${persona.id}`)
 if(!warns.tiene(`${message.guild.id}.${persona.id}`)){
 const embed1 = new Discord.MessageEmbed()
   .setTitle(`<a:si:871913544206123079>Esa persona no tiene warns!`)
-  .setColor("0xFF4200")
+  .setColor("0xE24C3F")
 
   message.channel.send(embed1)
 
@@ -35,7 +35,7 @@ const embed2 = new Discord.MessageEmbed()
   .setTitle(`Advertencias de ${persona.tag}`)
   .addField(`User:`, `» ${persona}`)
   .addField(`Warns:`, `» ${cantidad}`)
-  .setColor("0xFF4200")
+  .setColor("0xE24C3F")
 
 message.channel.send(embed2)
   

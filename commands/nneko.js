@@ -5,7 +5,7 @@ const Neko = require('nekos.life')
 const neko = new Neko()
 
 module.exports = {
-  name: "nneko", 
+  name: "hneko", 
   alias: [],
 
 async execute (client, message, args){
@@ -17,7 +17,7 @@ async execute (client, message, args){
 
   const load = new Discord.MessageEmbed()
     .setTitle(`<a:loading:871913621284855818> Loading`)
-    .setColor("0xFF4200")
+    .setColor("0xE24C3F")
 
   const embed = new Discord.MessageEmbed()
     .setTitle("💖Neko kya~")

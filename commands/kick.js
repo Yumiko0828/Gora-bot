@@ -32,7 +32,7 @@ execute (client, message, args){
    .addField(`User`, `» ${user}`)
    .addField(`Razon`, `» ${razon}`)
    .addField(`Moderador`, `» ${message.author}`)
-   .setColor("0xFF4200")
+   .setColor("0xE24C3F")
    .setTimestamp()
    .setFooter(`ID: ${user.id}`)
 

@@ -18,7 +18,7 @@ execute (client, message, args){
     dynamic: true,
     size: 1024
   })})`)
-    .setColor("0xFF4200")
+    .setColor("0xE24C3F")
     .setImage(user.user.displayAvatarURL({ dynamic: true, size: 1024}))
     .setFooter(`📩Avatar solicitado por ${message.author.username}`)
 

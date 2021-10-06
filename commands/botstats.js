@@ -19,7 +19,7 @@ execute (client, message, args){
     .addField("Ram", `» ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`)
     .addField("Lenguaje", "» JavaScript")
     .addField("Libreria", "» Discord.js v12.5.3")
-    .setColor("0xFF4200")
+    .setColor("0xE24C3F")
   
   message.channel.send(embed)
 

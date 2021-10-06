@@ -35,7 +35,7 @@ const embed = new Discord.MessageEmbed()
 .setTitle("Usuario unbaned")
 .addField(`Usuario`, `» ${member.username}`)
 .addField(`Moderador`, `» ${message.author}`)
-.setColor("0xFF4200")
+.setColor("0xE24C3F")
 
 message.channel.send(embed)
 

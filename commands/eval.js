@@ -22,7 +22,7 @@ try {
     return message.channel.send("<a:no:871913506167980052>Esas palabras no estan permitidas!")
   }
   const embed = new Discord.MessageEmbed()
-  .setColor("0xFF4200")
+  .setColor("0xE24C3F")
   .setTitle("Evaluado correctamente!")
   .addField(`**Tipo**:`, `\`\`\`prolog\n${typeof(evaled)}\`\`\``, true)
   .addField("**Evaluado en:**", `\`\`\`yaml\n${Date.now() - message.createdTimestamp}ms\`\`\``, true)

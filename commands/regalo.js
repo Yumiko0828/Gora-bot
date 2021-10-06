@@ -27,13 +27,13 @@ execute (client, message, args){
     .addField(`Enviado por:`, `» ${message.author.tag}`)
     .addField(`Mensaje extra:`, `» ${msgr}`)
     .addField(`Regalo:`, `» [Click Aquí](${regal})`)
-    .setColor("0xFF4200")
+    .setColor("0xE24C3F")
     .setTimestamp()
 
 /*----------ENVIADO CORRECTAMENTE----------*/
   const envied = new Discord.MessageEmbed()
     .setDescription(`<a:regalo:875550341691736064>Regalo enviado a ${user} correctamente!`)
-    .setColor("0xFF4200")
+    .setColor("0xE24C3F")
 
   message.delete()
   

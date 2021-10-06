@@ -11,7 +11,7 @@ execute (client, message, args){
 
   const embed = new Discord.MessageEmbed()
     .setImage(meme.imagenesEspañol())
-    .setColor("0xFF4200")
+    .setColor("0xE24C3F")
   
   message.channel.send(embed)
 

@@ -24,7 +24,7 @@ async execute (client, message, args){
 
     const embed1 = new Discord.MessageEmbed()
       .setTitle(`<a:si:871913544206123079>Esta persona no tiene warns!`)
-      .setColor("0xFF4200")
+      .setColor("0xE24C3F")
 
     message.channel.send(embed1)
   }
@@ -40,7 +40,7 @@ const embedfinal = new Discord.MessageEmbed()
   .addField(`Moderador:`, `» ${message.author.username}`)
   .addField(`User`, `» ${user}`)
   .addField(`Warns quitadas`, `» 1 warn`)
-  .setColor("0xFF4200")
+  .setColor("0xE24C3F")
 
   message.channel.send(embedfinal)
   
