@@ -25,7 +25,7 @@ function presence(){
     client.user.setPresence({
         status:"idle",
         activity: {
-            name: "g/help | v4.0.2",
+            name: "g/help | v4.0.3",
             type: "PLAYING"
         }
     })

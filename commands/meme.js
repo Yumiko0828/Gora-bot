@@ -1,8 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const { Client, MessageEmbed } = require('discord.js');
-const spanishmemes = require('spanish.memes');
-const meme = spanishmemes.Meme()
+const meme = require('discord-memes');
 
 module.exports = {
   name: "meme", 
@@ -11,7 +10,7 @@ module.exports = {
 execute (client, message, args){
 
   const embed = new Discord.MessageEmbed()
-    .setImage(meme)
+    .setImage(meme.imagenesEspañol())
     .setColor("0xFF4200")
   
   message.channel.send(embed)

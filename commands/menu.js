@@ -31,6 +31,7 @@ async execute (client, message, args){
     .addField('`g/nekogif`', 'Gif neko.')
     .addField('`g/meow`', 'Imagenes de gatitos')
     .addField('`g/feed`', 'Gif comiendo')
+    .addField('`g/meme`', 'Envia un meme random.')
     .addField('`g/kiss [@user]`', 'Manda un beso al usuario mencionado.')
     .setThumbnail(`https://cdn.discordapp.com/icons/871907014098448415/9560135af2f509e5f91bcac7aea6015d.webp`)
 
