@@ -66,7 +66,7 @@ async execute (client, message, args){
     .setColor("0xE24C3F")
     .setDescription('<a:alert:871913701589016646>Esta clase de comandos solo se pueden usar en canales **NSFW**')
     .addField('`g/hentai`', 'Hentai gif.')
-    .addField('`g/nneko`', 'Neko gif nsfw.')
+    .addField('`g/hneko`', 'Neko gif nsfw.')
     .addField('`g/cum [@user]`', 'Vente en el usuario mencionado.')
     .addField('`g/spank [@user]`', 'Azota al usuario mencionado.')
     .setThumbnail(`https://cdn.discordapp.com/icons/871907014098448415/9560135af2f509e5f91bcac7aea6015d.webp`)
