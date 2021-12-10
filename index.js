@@ -69,4 +69,4 @@ cmd.execute(client, message, args)
 });
 
 //----------------TOKEN----------------//
-client.login("ODcxOTA1OTk5MzIwMTUwMDM2.YQiHvQ.1uPuU8HlIU29LUWJ35J91KBMNGY");
+client.login("YOUR TOKEN HERE");
